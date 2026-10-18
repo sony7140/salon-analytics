@@ -1,0 +1,12 @@
+# Python 3.13.9에서 공개 노트북을 실행한 환경의 버전
+pandas==3.0.5
+numpy==2.5.2
+matplotlib==3.11.1
+seaborn==0.13.2
+ipython==9.16.1
+scipy==1.18.1
+statsmodels==0.15.0
+# pandas.read_parquet가 불러오는 필수 저장 형식 엔진
+pyarrow==25.0.1
+# Jupyter/VS Code 등 노트북 실행기는 사용하는 편집기에서 준비한다.
+# 한글 폰트가 없을 때만 사용하는 koreanize-matplotlib은 기준 환경에 설치되지 않았다.

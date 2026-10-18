@@ -1,0 +1,7 @@
+# 원본 입력을 보유하고 build.py / check_hands.py를 실행할 때만 추가 설치
+-r requirements.txt
+msoffcrypto-tool==6.0.0
+beautifulsoup4==4.15.0
+lxml==6.1.2
+openpyxl==3.1.5
+# openpyxl은 pandas.read_excel이 xlsx를 읽을 때 불러오는 엔진이다.
